@@ -9,7 +9,7 @@ module.exports = {
     nav: [
       { text: "面经", link: "/articles/index" },
       { text: "算法", link: "/guide/test" },
-      { text: "项目", link: "https://gitee.com/geeksdidi" },
+      { text: "项目", link: "https://gitee.com/aiai0603" },
       {
         text: "分类",
         items: [
