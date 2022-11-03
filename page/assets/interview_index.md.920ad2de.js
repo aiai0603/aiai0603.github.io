@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as n}from"./app.c40df3c2.js";const f=JSON.parse('{"title":"test","description":"","frontmatter":{"title":"test"},"headers":[],"relativePath":"interview/index.md"}'),s={name:"interview/index.md"},o=n("p",null,"hahah",-1),r=[o];function i(c,d,_,p,l,h){return a(),t("div",null,r)}const u=e(s,[["render",i]]);export{f as __pageData,u as default};

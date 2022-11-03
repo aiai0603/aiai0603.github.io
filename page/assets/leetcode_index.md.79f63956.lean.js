@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as o}from"./app.c40df3c2.js";const f=JSON.parse('{"title":"test","description":"","frontmatter":{"title":"test"},"headers":[],"relativePath":"leetcode/index.md"}'),s={name:"leetcode/index.md"},n=o("p",null,"hahah",-1),c=[n];function r(d,i,_,l,p,h){return a(),t("div",null,c)}const u=e(s,[["render",r]]);export{f as __pageData,u as default};

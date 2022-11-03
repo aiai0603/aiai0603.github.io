@@ -39,5 +39,5 @@ module.exports = {
   },
 
   //社交
-  socialLinks: [{ icon: "github", link: "https://gitee.com/geeksdidi" }],
+  socialLinks: [{ icon: "github", link: "https://gitee.com/aiai0603" }],
 };
