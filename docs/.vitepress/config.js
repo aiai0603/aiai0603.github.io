@@ -1,6 +1,15 @@
+import autoGetSidebarOptionBySrcDir from "./sidebar";
+const path = require("path");
+
 module.exports = {
   title: "blog",
   description: "Front end project and tips sharing",
+  lang: "cn-ZH",
+  base: "/",
+  markdown: {
+    // options for markdown-it-anchor
+    anchor: { permalink: true },
+  },
   themeConfig: {
     siteTitle: "摸鱼老萌新",
     logo: "/logo.jpg",
@@ -10,37 +19,55 @@ module.exports = {
       {
         text: "前端",
         items: [
-          { text: "基础", link: "/articles/index" },
-          { text: "Vue", link: "/item-2" },
-          { text: "React", link: "/item-3" },
-          { text: "小程序", link: "/item-3" },
-          { text: "Electron", link: "/item-3" },
-          { text: "Web3D", link: "/item-3" },
-          { text: "其他", link: "/item-3" },
+          { text: "基础", link: "/articles/basic/index" },
+          { text: "Vue", link: "/articles/vue/index" },
+          { text: "React", link: "/articles/react/index" },
+          { text: "小程序", link: "/articles/mini/index" },
+          { text: "Electron", link: "/articles/electron/index" },
+          { text: "Web3D", link: "/articles/web3d/index" },
+          { text: "其他", link: "/articles/other/index" },
         ],
       },
-      { text: "算法", link: "/leetcode/index" },
-      { text: "项目", link: "/intent/index" },
+      { text: "算法", link: "/leetcode/LEET_CODE题解/47. 全排列 II" },
+      { text: "项目", link: "/intent/" },
     ],
 
     //侧边栏
     sidebar: {
-      "/articles/": [
-        {
-          text: "测试标签",
-          collapsible: true,
-          collapsed: true,
-          items: [
-            {
-              text: "测试",
-              link: "/articles/index",
-            },
-          ],
-        },
-      ],
+      "/articles/basic": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/basic"),
+        "基础课"
+      ),
+      "/articles/vue": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/vue"),
+        "VUE"
+      ),
+      "/articles/react": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/react"),
+        "React"
+      ),
+      "/articles/mini": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/mini"),
+        "小程序"
+      ),
+      "/articles/electron": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/electron"),
+        "electron"
+      ),
+      "/articles/web3d": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/web3d"),
+        "3D"
+      ),
+      "/articles/other": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../articles/other"),
+        "其他"
+      ),
+      "/leetcode": autoGetSidebarOptionBySrcDir(
+        path.resolve(__dirname, "../leetcode")
+      ),
     },
-  },
 
-  //社交
-  socialLinks: [{ icon: "github", link: "https://gitee.com/aiai0603" }],
+    //社交
+    socialLinks: [{ icon: "github", link: "https://github.com/aiai0603" }],
+  },
 };

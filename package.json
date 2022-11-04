@@ -1,18 +1,41 @@
 {
-  
+  
   "name": "blog",
+  
   "version": "1.0.0",
+  
   "description": "demo blog",
+  
   "main": "index.js",
+  
   "author": "zs",
+  
   "license": "MIT",
+  
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.14"
+  
+    
+  "vitepress": "^1.0.0-alpha.14"
+  
   },
+  
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+  
+    
+  "docs:dev": "vitepress dev docs",
+  
+    
+  "docs:build": "vitepress build docs",
+  
+    
+  "docs:serve": "vitepress serve docs"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "directory-tree": "^3.3.1"
+  
   }
-  
 }
