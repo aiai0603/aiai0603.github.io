@@ -6,10 +6,6 @@ module.exports = {
   description: "Front end project and tips sharing",
   lang: "cn-ZH",
   base: "/",
-  markdown: {
-    // options for markdown-it-anchor
-    anchor: { permalink: true },
-  },
   themeConfig: {
     siteTitle: "摸鱼老萌新",
     logo: "/logo.jpg",
@@ -25,7 +21,7 @@ module.exports = {
           { text: "小程序", link: "/articles/mini/index" },
           { text: "Electron", link: "/articles/electron/index" },
           { text: "Web3D", link: "/articles/web3d/index" },
-          { text: "其他", link: "/articles/other/index" },
+          { text: "其他", link: "/articles/other/vitepress/01.vitepress的搭建" },
         ],
       },
       { text: "算法", link: "/leetcode/LEET_CODE题解/47. 全排列 II" },
@@ -59,8 +55,7 @@ module.exports = {
         "3D"
       ),
       "/articles/other": autoGetSidebarOptionBySrcDir(
-        path.resolve(__dirname, "../articles/other"),
-        "其他"
+        path.resolve(__dirname, "../articles/other")
       ),
       "/leetcode": autoGetSidebarOptionBySrcDir(
         path.resolve(__dirname, "../leetcode")
