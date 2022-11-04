@@ -2,7 +2,7 @@ import autoGetSidebarOptionBySrcDir from "./sidebar";
 const path = require("path");
 
 module.exports = {
-  title: "blog",
+  title: "摸鱼老萌新",
   description: "Front end project and tips sharing",
   lang: "cn-ZH",
   base: "/",
