@@ -26,6 +26,7 @@ function autoGetSidebarOptionBySrcDir(srcPath, title) {
     extensions: /\.md$/,
     normalizePath: true,
   });
+
   if (title != undefined) {
     return [
       {
