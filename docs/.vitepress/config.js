@@ -9,7 +9,6 @@ module.exports = {
   themeConfig: {
     siteTitle: "摸鱼老萌新",
     logo: "/logo.jpg",
-
     //顶部
     nav: [
       {
@@ -55,7 +54,7 @@ module.exports = {
         "3D"
       ),
       "/articles/other": autoGetSidebarOptionBySrcDir(
-        path.resolve(__dirname, "../articles/other")
+        path.resolve(__dirname, "../articles/other/vitepress")
       ),
       "/leetcode": autoGetSidebarOptionBySrcDir(
         path.resolve(__dirname, "../leetcode")

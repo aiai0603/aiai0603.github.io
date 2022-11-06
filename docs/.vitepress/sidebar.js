@@ -27,18 +27,16 @@ function autoGetSidebarOptionBySrcDir(srcPath, title) {
     normalizePath: true,
   });
 
-  if (title != undefined) {
-    return [
-      {
-        text: title,
-        collapsible: true,
-        collapsed: true,
-        items: toSidebarOption(srcDir.children),
-      },
-    ];
-  } else {
-    return toSidebarOption(srcDir.children);
-  }
+
+  return [
+    {
+      text: title == undefined ?  srcDir.name : title ,
+      collapsible: true,
+      collapsed: true,
+      items: toSidebarOption(srcDir.children),
+    },
+  ];
+
 }
 
 module.exports = autoGetSidebarOptionBySrcDir;
