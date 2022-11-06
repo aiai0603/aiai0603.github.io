@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./app.6e238f1f.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/electron/\u6D4B\u8BD5.md"}'),a={name:"articles/electron/\u6D4B\u8BD5.md"};function c(o,s,n,_,i,p){return t(),r("div")}const m=e(a,[["render",c]]);export{d as __pageData,m as default};
