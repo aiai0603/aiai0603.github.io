@@ -1,0 +1,1 @@
+import{_ as t,r as s,o as n,c as o,a as r}from"../app.3ae39324.js";const c={};function a(l,i){const e=s("sb-result");return n(),o("div",null,[r(e,{title:"This is title",subtitle:"This is subtitle",status:"warning"})])}const u=t(c,[["render",a]]);export{u as default};
