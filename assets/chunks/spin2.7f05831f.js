@@ -1,0 +1,1 @@
+import{_,r as o,o as c,c as n,a as s}from"../app.a1b8638e.js";const t={},a={class:"box"};function r(p,i){const e=o("sb-spin");return c(),n("div",a,[s(e),s(e,{size:28}),s(e,{size:36})])}const l=_(t,[["render",r],["__scopeId","data-v-7878caa1"]]);export{l as default};

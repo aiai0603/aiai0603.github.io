@@ -1,1 +1,0 @@
-import{_ as e,r as o,o as n,c as s,a as c,w as a,d as r}from"../app.ae75e597.js";const _={},d={class:"box"};function l(f,u){const t=o("sb-button");return n(),s("div",d,[c(t,{long:""},{default:a(()=>[r(" long ")]),_:1})])}const i=e(_,[["render",l]]);export{i as default};
