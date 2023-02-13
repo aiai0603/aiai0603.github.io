@@ -1,0 +1,1 @@
+import{_ as t,r as c,o,c as r,a,w as s,d as n}from"../app.3e89a89a.js";const d={};function _(l,f){const e=c("sb-card");return o(),r("div",null,[a(e,{style:{width:"360px"},bordered:""},{default:s(()=>[n(" Seven-Bit-UI 连接轻盈体验 更快开发和构建项目产品，适用于 Vue 项目的组件库 ")]),_:1})])}const p=t(d,[["render",_]]);export{p as default};

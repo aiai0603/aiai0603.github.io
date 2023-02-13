@@ -1,0 +1,1 @@
+import{_ as t,r as a,o,c as s,a as n,w as r,d as c}from"../app.3e89a89a.js";const _={},l={class:"box"};function d(i,f){const e=a("sb-alert");return o(),s("div",l,[n(e,{banner:""},{default:r(()=>[c("This is an info alert.")]),_:1})])}const p=t(_,[["render",d]]);export{p as default};

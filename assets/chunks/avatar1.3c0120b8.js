@@ -1,0 +1,1 @@
+import{_,r as s,o as c,c as n,a,w as t,d as o}from"../app.3e89a89a.js";const r={},d={class:"box"};function l(f,p){const e=s("sb-avatar");return c(),n("div",d,[a(e,null,{default:t(()=>[o("A")]),_:1}),a(e,{style:{backgroundColor:"#3370ff"}},{default:t(()=>[o("kif")]),_:1})])}const v=_(r,[["render",l],["__scopeId","data-v-17d37d89"]]);export{v as default};
