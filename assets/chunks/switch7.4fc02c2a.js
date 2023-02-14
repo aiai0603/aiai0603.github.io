@@ -1,1 +1,0 @@
-import{_ as n,r as o,o as a,c as s,a as t,F as c}from"../app.da030a5c.js";const _={};function r(d,l){const e=o("sb-switch");return a(),s(c,null,[t(e,{loading:!0}),t(e,{type:"round",loading:!0}),t(e,{type:"line",loading:!0})],64)}const p=n(_,[["render",r],["__scopeId","data-v-4fa3bdea"]]);export{p as default};
