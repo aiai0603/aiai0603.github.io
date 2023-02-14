@@ -1,1 +1,0 @@
-import{_ as o,r as c,o as n,c as s,b as t,a}from"../app.3e89a89a.js";const r={},_={class:"box"};function i(d,l){const e=c("sb-icon");return n(),s("div",_,[t("div",null,[a(e,{name:"sync",spin:""})])])}const p=o(r,[["render",i]]);export{p as default};
