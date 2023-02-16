@@ -1,0 +1,1 @@
+import{_ as o,r as s,o as _,c as t,a}from"../app.fddf7692.js";const c={},n={class:".upload-demo"};function r(d,l){const e=s("sb-upload");return _(),t("div",n,[a(e)])}const u=o(c,[["render",r]]);export{u as default};

@@ -1,1 +1,0 @@
-import{i as n,j as s,r as l,o as r,c as p,a as u,w as d,d as c}from"../app.fc95d197.js";const f=n({__name:"input1",setup(m){const e=s("");return(_,t)=>{const o=l("sb-input");return r(),p("div",null,[u(o,{modelValue:e.value,"onUpdate:modelValue":t[0]||(t[0]=a=>e.value=a),placeholder:"请输入内容"},{default:d(()=>[c("ss")]),_:1},8,["modelValue"])])}}});export{f as default};
